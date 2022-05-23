@@ -21,9 +21,11 @@ Interfacing ESP32 with RepRapDiscount Full Graphic Smart Controller
 #### Dependencies :
 
 <a href="https://github.com/olikraus/u8g2">
-* U8g2: Library for monochrome displays
+U8g2: Library for monochrome displays
 </a>
-      
+
+</br>
+
 <a href="https://github.com/madhephaestus/ESP32Encoder">
-* ESP32Encoder library
+ESP32Encoder library
 </a>
