@@ -18,7 +18,7 @@ Interfacing ESP32 with RepRapDiscount Full Graphic Smart Controller
       04 |  NC   | ENC-B | 03
       02 |  NC   |   NC  | 01
 
-#### Dependencies :
+### Dependencies :
 
 <a href="https://github.com/olikraus/u8g2">
 U8g2: Library for monochrome displays
