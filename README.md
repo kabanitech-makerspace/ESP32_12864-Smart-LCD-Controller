@@ -2,7 +2,7 @@
 Interfacing ESP32 with RepRapDiscount Full Graphic Smart Controller
 
 ## Pinout :
-### EXP1
+#### EXP1
 
       10 | +5V   |  GND  | 09
       08 |  NC   |   NC  | 07
@@ -10,10 +10,19 @@ Interfacing ESP32 with RepRapDiscount Full Graphic Smart Controller
       04 |LDC-RS |LCD-R/W| 03
       02 |ENC-BTN|  BUZ  | 01 
       
- ### EXP2
+ #### EXP2
  
       10 |  NC   |   NC  | 09
       08 |  BTN  |   NC  | 07
       06 |  NC   | ENC-A | 05
       04 |  NC   | ENC-B | 03
       02 |  NC   |   NC  | 01
+
+#### Dependencies :
+      <a href="https://github.com/olikraus/u8g2">
+      U8g2: Library for monochrome displays, version 2
+      </a>
+      
+      <a href="https://github.com/madhephaestus/ESP32Encoder">
+      ESP32Encoder library
+      </a>
